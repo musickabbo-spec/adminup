@@ -1,4 +1,3 @@
-```python
 import json
 import base64
 import requests
@@ -174,5 +173,4 @@ CRITICAL DIRECTIVES:
     clean_response = clean_response.replace("===LEDGER_START===", "\n`[📝 Updating System Ledger...]`\n").replace("===LEDGER_END===", "\n`[✅ Ledger Synced]`\n")
 
     return {"response": clean_response, "reload": reload_required}
-
-```
+    
